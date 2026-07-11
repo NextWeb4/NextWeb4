@@ -1,21 +1,91 @@
-<svg width="900" height="360" viewBox="0 0 900 360" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+<svg xmlns="http://www.w3.org/2000/svg" width="480" height="760" viewBox="0 0 480 760" role="img" aria-labelledby="title desc">
   <title id="title">NextWeb4 GitHub Metrics</title>
-  <desc id="desc">Profile card for HaoXiang Huang and NextWeb4 projects.</desc>
-  <rect width="900" height="360" rx="24" fill="#191724"/>
-  <rect x="28" y="28" width="844" height="304" rx="18" fill="#1f1d2e" stroke="#6e6a86"/>
-  <text x="56" y="84" fill="#f6c177" font-family="Segoe UI, Arial, sans-serif" font-size="34" font-weight="700">NextWeb4</text>
-  <text x="56" y="122" fill="#e0def4" font-family="Segoe UI, Arial, sans-serif" font-size="18">HaoXiang Huang - GitHub profile</text>
-  <g font-family="Segoe UI, Arial, sans-serif" font-size="17" fill="#e0def4">
-    <text x="56" y="170">Desktop tools - Web publishing - Learning archives - Automation projects</text>
-    <text x="56" y="206">Python - TypeScript - React - Tauri - .NET - C/C++ - Visual Basic</text>
-    <text x="56" y="242">Homepage: https://nextweb4.github.io/</text>
-    <text x="56" y="278">GitHub: https://github.com/NextWeb4</text>
-  </g>
-  <g transform="translate(590 92)">
-    <rect width="230" height="172" rx="16" fill="#26233a" stroke="#908caa"/>
-    <text x="24" y="46" fill="#9ccfd8" font-family="Segoe UI, Arial, sans-serif" font-size="17" font-weight="700">Focus</text>
-    <text x="24" y="84" fill="#e0def4" font-family="Segoe UI, Arial, sans-serif" font-size="15">Local-first apps</text>
-    <text x="24" y="114" fill="#e0def4" font-family="Segoe UI, Arial, sans-serif" font-size="15">Project documentation</text>
-    <text x="24" y="144" fill="#e0def4" font-family="Segoe UI, Arial, sans-serif" font-size="15">Bilingual publishing</text>
-  </g>
+  <desc id="desc">Metrics-style profile summary for HaoXiang Huang and NextWeb4.</desc>
+  <style>
+    svg{font-family:-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif;color:#777;background:#fff}
+    h1,h2{margin:8px 0 4px;padding:0;color:#0366d6}
+    h1{font-size:20px;font-weight:700}
+    h2{font-size:16px;font-weight:400}
+    .wrap{box-sizing:border-box;width:480px;padding:16px}
+    .field{display:flex;align-items:center;margin:4px 0;white-space:nowrap;color:#555;font-size:14px}
+    .field strong{color:#24292f;margin-right:6px}
+    .muted{color:#666;font-size:12px}
+    .section{margin-top:10px}
+    .chip{display:inline-block;margin:3px 4px 3px 0;padding:3px 8px;border-radius:12px;background:#f1f8ff;color:#0366d6;font-size:12px}
+    .bar{height:8px;border-radius:4px;background:#eaeef2;overflow:hidden;margin:5px 0 10px}
+    .fill{height:8px;border-radius:4px}
+    .repo{margin:6px 0;padding:8px;border:1px solid #e1e4e8;border-radius:6px;background:#fff}
+    .repo-title{font-size:14px;color:#0366d6;font-weight:600}
+    .repo-desc{margin-top:3px;color:#586069;font-size:12px;line-height:1.35}
+    footer{margin-top:12px;font-size:10px;font-style:italic;color:#666;text-align:right}
+  </style>
+  <foreignObject x="0" y="0" width="480" height="760">
+    <div xmlns="http://www.w3.org/1999/xhtml" class="wrap">
+      <section>
+        <h1>NextWeb4</h1>
+        <div class="field"><strong>Name</strong> HaoXiang Huang</div>
+        <div class="field"><strong>Homepage</strong> https://nextweb4.github.io/</div>
+        <div class="field"><strong>GitHub</strong> https://github.com/NextWeb4</div>
+        <div class="field"><strong>Profile</strong> Desktop tools, web publishing, learning archives, automation projects</div>
+      </section>
+
+      <section class="section">
+        <h2>Repositories</h2>
+        <div class="field"><strong>Public repositories</strong> 16</div>
+        <div class="field"><strong>Profile repository</strong> NextWeb4/NextWeb4</div>
+        <div class="repo">
+          <div class="repo-title">yaml-proxy-editor</div>
+          <div class="repo-desc">Tauri, React, and TypeScript desktop workbench for local Clash/OpenClash/Mihomo YAML editing, audit, and export.</div>
+        </div>
+        <div class="repo">
+          <div class="repo-title">deepseek-translation-studio</div>
+          <div class="repo-desc">Windows Python/PySide6 translation studio for DeepSeek Web/API workflows and subtitle translation.</div>
+        </div>
+        <div class="repo">
+          <div class="repo-title">alias-cockpit</div>
+          <div class="repo-desc">Windows local email-alias cockpit built with .NET and WinUI.</div>
+        </div>
+        <div class="repo">
+          <div class="repo-title">NextWeb4.github.io</div>
+          <div class="repo-desc">Personal GitHub Pages blog, public project entry point, and self-measure journal.</div>
+        </div>
+      </section>
+
+      <section class="section">
+        <h2>Languages and stack</h2>
+        <div class="field"><strong>TypeScript / React / Tauri</strong></div>
+        <div class="bar"><div class="fill" style="width:78%;background:#3178c6"></div></div>
+        <div class="field"><strong>Python / PySide6</strong></div>
+        <div class="bar"><div class="fill" style="width:72%;background:#3572A5"></div></div>
+        <div class="field"><strong>.NET / WinUI</strong></div>
+        <div class="bar"><div class="fill" style="width:55%;background:#512BD4"></div></div>
+        <div class="field"><strong>C / C++ / Visual Basic archives</strong></div>
+        <div class="bar"><div class="fill" style="width:48%;background:#f34b7d"></div></div>
+      </section>
+
+      <section class="section">
+        <h2>Project topics</h2>
+        <span class="chip">desktop-app</span>
+        <span class="chip">local-first</span>
+        <span class="chip">automation</span>
+        <span class="chip">github-pages</span>
+        <span class="chip">translation</span>
+        <span class="chip">proxy-config</span>
+        <span class="chip">learning-notes</span>
+        <span class="chip">programming-practice</span>
+      </section>
+
+      <section class="section">
+        <h2>Profile focus</h2>
+        <div class="field">Keep repositories documented with bilingual README files.</div>
+        <div class="field">Build practical Windows desktop tools and static web pages.</div>
+        <div class="field">Archive learning material with clear project descriptions and topics.</div>
+      </section>
+
+      <footer>
+        <span>Metrics-style card based on the referenced profile layout.</span><br/>
+        <span>Last updated 11 Jul 2026 for NextWeb4.</span>
+      </footer>
+    </div>
+  </foreignObject>
 </svg>
