@@ -1,16 +1,15 @@
-## Hi there 👋
+<div align="center">
 
-<!--
-**NextWeb4/NextWeb4** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+# Hi there, I’m **HaoXiang Huang**
 
-Here are some ideas to get you started:
+[![NextWeb4](https://img.shields.io/badge/NextWeb4-Homepage-f39f37?style=for-the-badge&logo=githubpages&logoColor=white)](https://nextweb4.github.io/)
+[![GitHub](https://img.shields.io/badge/GitHub-NextWeb4-24292f?style=for-the-badge&logo=github&logoColor=white)](https://github.com/NextWeb4)
+![Visitor Count](https://komarev.com/ghpvc/?username=NextWeb4&color=blue&style=for-the-badge)
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+<br/>
+
+[![NextWeb4's GitHub stats](https://github-readme-stats.vercel.app/api?username=NextWeb4&theme=panda&show_icons=true&count_private=true&show=reviews)](https://github.com/NextWeb4)
+
+<img src="https://raw.githubusercontent.com/NextWeb4/NextWeb4/main/github-metrics.svg" alt="GitHub Metrics" width="65%">
+
+</div>
