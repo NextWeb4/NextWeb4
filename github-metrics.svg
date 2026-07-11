@@ -1,0 +1,21 @@
+<svg width="900" height="360" viewBox="0 0 900 360" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">NextWeb4 GitHub Metrics</title>
+  <desc id="desc">Profile card for HaoXiang Huang and NextWeb4 projects.</desc>
+  <rect width="900" height="360" rx="24" fill="#191724"/>
+  <rect x="28" y="28" width="844" height="304" rx="18" fill="#1f1d2e" stroke="#6e6a86"/>
+  <text x="56" y="84" fill="#f6c177" font-family="Segoe UI, Arial, sans-serif" font-size="34" font-weight="700">NextWeb4</text>
+  <text x="56" y="122" fill="#e0def4" font-family="Segoe UI, Arial, sans-serif" font-size="18">HaoXiang Huang · GitHub profile</text>
+  <g font-family="Segoe UI, Arial, sans-serif" font-size="17" fill="#e0def4">
+    <text x="56" y="170">Desktop tools · Web publishing · Learning archives · Automation projects</text>
+    <text x="56" y="206">Python · TypeScript · React · Tauri · .NET · C/C++ · Visual Basic</text>
+    <text x="56" y="242">Homepage: https://nextweb4.github.io/</text>
+    <text x="56" y="278">GitHub: https://github.com/NextWeb4</text>
+  </g>
+  <g transform="translate(590 92)">
+    <rect width="230" height="172" rx="16" fill="#26233a" stroke="#908caa"/>
+    <text x="24" y="46" fill="#9ccfd8" font-family="Segoe UI, Arial, sans-serif" font-size="17" font-weight="700">Focus</text>
+    <text x="24" y="84" fill="#e0def4" font-family="Segoe UI, Arial, sans-serif" font-size="15">Local-first apps</text>
+    <text x="24" y="114" fill="#e0def4" font-family="Segoe UI, Arial, sans-serif" font-size="15">Project documentation</text>
+    <text x="24" y="144" fill="#e0def4" font-family="Segoe UI, Arial, sans-serif" font-size="15">Bilingual publishing</text>
+  </g>
+</svg>
