@@ -1,51 +1,27 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="760" height="300" viewBox="0 0 760 300" role="img" aria-labelledby="title desc">
-  <title id="title">NextWeb4 profile card</title>
-  <desc id="desc">Compact profile card for HaoXiang Huang and NextWeb4.</desc>
-  <defs>
-    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0" stop-color="#191724"/>
-      <stop offset="1" stop-color="#26233a"/>
-    </linearGradient>
-    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0" stop-color="#f6c177"/>
-      <stop offset="1" stop-color="#9ccfd8"/>
-    </linearGradient>
-    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
-      <feDropShadow dx="0" dy="14" stdDeviation="14" flood-color="#000" flood-opacity="0.28"/>
-    </filter>
-  </defs>
-  <rect width="760" height="300" rx="28" fill="url(#bg)"/>
-  <rect x="22" y="22" width="716" height="256" rx="22" fill="#1f1d2e" stroke="#6e6a86" filter="url(#shadow)"/>
-  <rect x="54" y="58" width="74" height="74" rx="18" fill="#26233a" stroke="#908caa"/>
-  <text x="91" y="102" text-anchor="middle" fill="#f6c177" font-family="Segoe UI, Arial, sans-serif" font-size="30" font-weight="700">N4</text>
-  <text x="154" y="75" fill="#f6c177" font-family="Segoe UI, Arial, sans-serif" font-size="30" font-weight="700">NextWeb4</text>
-  <text x="154" y="105" fill="#e0def4" font-family="Segoe UI, Arial, sans-serif" font-size="18">HaoXiang Huang</text>
-  <text x="154" y="133" fill="#908caa" font-family="Segoe UI, Arial, sans-serif" font-size="15">Desktop tools / web publishing / learning archives / automation</text>
-  <rect x="154" y="154" width="220" height="6" rx="3" fill="url(#accent)"/>
-
-  <g font-family="Segoe UI, Arial, sans-serif" font-size="14">
-    <rect x="54" y="188" width="132" height="42" rx="12" fill="#26233a" stroke="#403d52"/>
-    <text x="72" y="213" fill="#e0def4">16 public repos</text>
-    <rect x="198" y="188" width="132" height="42" rx="12" fill="#26233a" stroke="#403d52"/>
-    <text x="216" y="213" fill="#e0def4">local-first apps</text>
-    <rect x="342" y="188" width="132" height="42" rx="12" fill="#26233a" stroke="#403d52"/>
-    <text x="360" y="213" fill="#e0def4">bilingual docs</text>
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="210" viewBox="0 0 760 210" role="img" aria-labelledby="title desc">
+  <title id="title">NextWeb4 profile metrics</title>
+  <desc id="desc">Transparent compact profile metrics for HaoXiang Huang and NextWeb4.</desc>
+  <style>
+    .title{fill:#58a6ff;font:700 28px -apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif}
+    .name{fill:#c9d1d9;font:500 17px -apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif}
+    .muted{fill:#8b949e;font:14px -apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif}
+    .small{fill:#8b949e;font:12px -apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif}
+    .link{fill:#79c0ff;font:14px -apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif}
+    .label{fill:#f0f6fc;font:600 13px -apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif}
+    .chipText{fill:#c9d1d9;font:12px -apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif}
+  </style>
+  <g transform="translate(28 26)">
+    <text class="title" x="0" y="0" dominant-baseline="hanging">NextWeb4</text>
+    <text class="name" x="0" y="40" dominant-baseline="hanging">HaoXiang Huang</text>
+    <text class="muted" x="0" y="68" dominant-baseline="hanging">Desktop tools / web publishing / learning archives / automation</text>
+    <text class="link" x="0" y="96" dominant-baseline="hanging">https://nextweb4.github.io/</text>
+    <line x1="0" y1="132" x2="704" y2="132" stroke="#30363d" stroke-width="1"/>
+    <text class="label" x="0" y="156" dominant-baseline="hanging">Focus</text>
+    <text class="chipText" x="58" y="156" dominant-baseline="hanging">local-first apps</text>
+    <text class="chipText" x="176" y="156" dominant-baseline="hanging">bilingual docs</text>
+    <text class="chipText" x="294" y="156" dominant-baseline="hanging">GitHub Pages</text>
+    <text class="chipText" x="416" y="156" dominant-baseline="hanging">proxy config</text>
+    <text class="small" x="0" y="182" dominant-baseline="hanging">TypeScript / Python / Tauri / React / .NET</text>
+    <text class="small" x="610" y="182" dominant-baseline="hanging">16 repos</text>
   </g>
-
-  <g font-family="Segoe UI, Arial, sans-serif" font-size="13" fill="#191724">
-    <rect x="510" y="63" width="94" height="28" rx="14" fill="#f6c177"/>
-    <text x="557" y="82" text-anchor="middle">TypeScript</text>
-    <rect x="612" y="63" width="76" height="28" rx="14" fill="#9ccfd8"/>
-    <text x="650" y="82" text-anchor="middle">Python</text>
-    <rect x="510" y="101" width="70" height="28" rx="14" fill="#c4a7e7"/>
-    <text x="545" y="120" text-anchor="middle">Tauri</text>
-    <rect x="588" y="101" width="110" height="28" rx="14" fill="#ebbcba"/>
-    <text x="643" y="120" text-anchor="middle">GitHub Pages</text>
-  </g>
-
-  <text x="510" y="166" fill="#e0def4" font-family="Segoe UI, Arial, sans-serif" font-size="15" font-weight="600">Focus</text>
-  <text x="510" y="194" fill="#908caa" font-family="Segoe UI, Arial, sans-serif" font-size="14">YAML proxy editor / translation studio</text>
-  <text x="510" y="218" fill="#908caa" font-family="Segoe UI, Arial, sans-serif" font-size="14">personal site / practice archives</text>
-  <text x="54" y="258" fill="#9ccfd8" font-family="Segoe UI, Arial, sans-serif" font-size="14">https://nextweb4.github.io/</text>
-  <text x="520" y="258" fill="#908caa" font-family="Segoe UI, Arial, sans-serif" font-size="12">Updated for NextWeb4</text>
 </svg>
