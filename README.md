@@ -8,7 +8,7 @@
 
 <br/>
 
-[![NextWeb4's GitHub stats](https://github-readme-stats.vercel.app/api?username=NextWeb4&theme=panda&show_icons=true&count_private=true&show=reviews)](https://github.com/NextWeb4)
+[![NextWeb4's GitHub stats](https://github-readme-stats-seven-inky-41.vercel.app/api?username=NextWeb4&theme=panda&show_icons=true&count_private=true&show=reviews)](https://github.com/NextWeb4)
 
 <img src="https://raw.githubusercontent.com/NextWeb4/NextWeb4/main/github-metrics.svg" alt="GitHub Metrics" width="65%">
 
