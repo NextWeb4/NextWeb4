@@ -1,27 +1,31 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="760" height="250" viewBox="0 0 760 250" role="img" aria-labelledby="title desc">
-  <title id="title">NextWeb4 profile metrics</title>
-  <desc id="desc">Transparent compact profile metrics for HaoXiang Huang and NextWeb4.</desc>
+<svg xmlns="http://www.w3.org/2000/svg" width="480" height="294" viewBox="0 0 480 294" role="img" aria-labelledby="title desc">
+  <title id="title">NextWeb4 at a glance</title>
+  <desc id="desc">A compact transparent overview of HaoXiang Huang's current projects and development focus.</desc>
   <style>
-    .title{fill:#58a6ff;font:700 28px -apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif}
-    .name{fill:#c9d1d9;font:600 17px -apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif}
-    .muted{fill:#8b949e;font:14px -apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif}
-    .small{fill:#8b949e;font:12px -apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif}
-    .link{fill:#79c0ff;font:14px -apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif}
-    .label{fill:#f0f6fc;font:600 13px -apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif}
-    .chipText{fill:#c9d1d9;font:12px -apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif}
+    :root { --title:#0969da; --text:#1f2328; --muted:#59636e; --line:#d0d7de; --python:#3776ab; --tauri:#00a6a6; --web:#8250df; }
+    @media (prefers-color-scheme: dark) { :root { --title:#58a6ff; --text:#f0f6fc; --muted:#9da7b3; --line:#30363d; --python:#58a6ff; --tauri:#39d0d8; --web:#bc8cff; } }
+    text { font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif; letter-spacing:0; }
+    .eyebrow { fill:var(--muted); font-size:14px; font-weight:600; }
+    .heading { fill:var(--title); font-size:27px; font-weight:700; }
+    .tagline { fill:var(--text); font-size:16px; font-weight:500; }
+    .project { fill:var(--text); font-size:17px; font-weight:650; }
+    .detail { fill:var(--muted); font-size:15px; }
+    .stack { fill:var(--text); font-size:15px; font-weight:600; }
   </style>
-  <g transform="translate(28 30)">
-    <text class="title" x="0" y="0">NextWeb4</text>
-    <text class="name" x="0" y="32">HaoXiang Huang</text>
-    <text class="muted" x="0" y="58">Desktop tools / web publishing / learning archives / automation</text>
-    <text class="link" x="0" y="84">https://nextweb4.github.io/</text>
-    <line x1="0" y1="116" x2="704" y2="116" stroke="#30363d" stroke-width="1"/>
-    <text class="label" x="0" y="148">Focus</text>
-    <text class="chipText" x="58" y="148">local-first apps</text>
-    <text class="chipText" x="176" y="148">bilingual docs</text>
-    <text class="chipText" x="294" y="148">GitHub Pages</text>
-    <text class="chipText" x="416" y="148">proxy config</text>
-    <text class="small" x="0" y="182">TypeScript / Python / Tauri / React / .NET</text>
-    <text class="small" x="610" y="182">16 repos</text>
-  </g>
+  <text class="eyebrow" x="16" y="22">HAOXIANG HUANG</text>
+  <text class="heading" x="16" y="55">NextWeb4</text>
+  <text class="tagline" x="16" y="81">Useful tools for real desktop and web workflows.</text>
+  <line x1="16" y1="103" x2="464" y2="103" stroke="var(--line)"/>
+  <circle cx="22" cy="130" r="5" fill="var(--python)"/>
+  <text class="project" x="38" y="136">Translation Studio</text>
+  <text class="detail" x="210" y="136">Python / PySide6</text>
+  <circle cx="22" cy="168" r="5" fill="var(--tauri)"/>
+  <text class="project" x="38" y="174">YAML Proxy Editor</text>
+  <text class="detail" x="210" y="174">Tauri / React / TypeScript</text>
+  <circle cx="22" cy="206" r="5" fill="var(--web)"/>
+  <text class="project" x="38" y="212">Personal Web</text>
+  <text class="detail" x="210" y="212">Bilingual publishing / GitHub Pages</text>
+  <line x1="16" y1="232" x2="464" y2="232" stroke="var(--line)"/>
+  <text class="stack" x="16" y="258">TypeScript / Python / Tauri / React / .NET</text>
+  <text class="detail" x="16" y="282">nextweb4.github.io</text>
 </svg>
