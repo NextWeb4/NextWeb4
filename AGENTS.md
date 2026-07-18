@@ -16,12 +16,14 @@
 - No build command was found in the current repository.
 
 ## 5. Code style
+- Keep the exact centered Shields language selector in all root README files; its visible SVG labels are `English`, `简体中文`, and `日本語` so browser translation cannot rewrite them.
+- Keep English, Simplified Chinese, and natural Japanese content in the same section order with identical project links, facts, counts, limitations, images, and code fences.
 - No lint / format command was found in the current repository.
 - Use UTF-8 Markdown, valid HTML alignment, compact `flat-square` badges, and descriptive image alt text.
 - Keep project names, URLs, and technology names exact across translations.
 
 ## 6. Module boundaries
-- Profile narrative, featured projects, toolset, and contact details belong in the three README files.
+- Identity, current focus, grouped application/web/archive portfolio, technology evidence, working principles, profile limitations, and contact details belong in all three README files.
 - Repository maintenance rules belong in `AGENTS.md`.
 - Treat `github-metrics.svg` as generated visual output; do not hand-edit graph paths or embedded data.
 
@@ -33,11 +35,12 @@
 
 ## 8. Completion criteria
 - All three languages have working reciprocal navigation and equivalent factual content.
-- The default `README.md` remains concise enough to scan on the GitHub profile page.
+- The default `README.md` remains detailed but scan-friendly through grouped tables and short project-specific sections.
 - Every featured repository and contact link resolves to the intended destination.
 
 ## 9. Review criteria
-- Recheck featured-project descriptions against their current repositories before publishing.
+- Verify the language selector renders through GitHub without browser-translatable text and all three README versions keep the same facts, commands, links, and images.
+- Recheck every portfolio description, technology claim, visibility, archive status, and link against current repository metadata before publishing.
 - Verify `github-metrics.svg` exists, renders, and has a descriptive alt attribute.
 - Run `git diff --check` and inspect narrow/mobile Markdown rendering.
 
