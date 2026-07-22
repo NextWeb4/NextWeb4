@@ -1,6 +1,3 @@
-
-
-
 <p align="center">
   <a href="README.md"><img src="https://img.shields.io/badge/English-0969da?style=flat-square" alt="English"></a>
   <a href="README.zh-CN.md"><img src="https://img.shields.io/badge/%E7%AE%80%E4%BD%93%E4%B8%AD%E6%96%87-c8102e?style=flat-square" alt="简体中文"></a>
@@ -56,8 +53,8 @@
 
 | 项目 | 职责 |
 | --- | --- |
-| [NextWeb4.github.io](https://github.com/NextWeb4/NextWeb4.github.io) | 静态个人博客、可搜索文章归档、自我度量日志与公开项目入口 |
-| [website](https://github.com/NextWeb4/website) | 静态双语主页，以及仅绑定本机回环地址的 FastAPI 内容管理和保留历史的发布工具 |
+| [NextWeb4.github.io](https://github.com/NextWeb4/NextWeb4.github.io) | 根个人网站的生成公开运行版，只包含浏览器交付的双语内容，不含私有编辑器或后端 |
+| [Private](https://github.com/NextWeb4/Private) | 独立 `/Private/` 文章归档与自我度量日志的公开静态运行版 |
 | [github-achievement-collab-notes](https://github.com/NextWeb4/github-achievement-collab-notes) | 仅含文档的 Fork，用于练习可审查的跨账号协作，不制造虚假活动 |
 
 ## 学习与资料归档
@@ -74,7 +71,6 @@
 | C#、.NET、WinUI | `alias-cockpit` Windows 桌面应用 |
 | Python、PySide6、SQLite | 翻译、记录管理、元数据、离线和局域网桌面项目 |
 | HTML、CSS、原生 JavaScript | 两个已发布网站与本地 `code-relay` 界面 |
-| FastAPI、Pydantic、pytest | `website` 中的本机回环管理服务与回归测试套件 |
 | ExifTool | `photo-metadata-editor` 集成的元数据读写引擎 |
 | Git 与 GitHub Pages | 静态发布，以及受保护的内容提交、推送、历史和回滚工作流 |
 
@@ -102,7 +98,7 @@
 
 ## 状态与限制
 
-截至 2026-07-18 审计时，Profile 仓库处于活跃且未归档状态。项目范围、版本和可用性会继续变化，安装或复用前请查看对应 README 与发布历史。部分仓库是学习归档，不能把某个项目缺少许可证的情况推断到其他项目。
+截至 2026-07-22 审计时，Profile 仓库处于活跃且未归档状态。项目范围、版本和可用性会继续变化，安装或复用前请查看对应 README 与发布历史。部分仓库是学习归档，不能把某个项目缺少许可证的情况推断到其他项目。
 
 ## 联系方式
 

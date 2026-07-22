@@ -1,6 +1,3 @@
-
-
-
 <p align="center">
   <a href="README.md"><img src="https://img.shields.io/badge/English-0969da?style=flat-square" alt="English"></a>
   <a href="README.zh-CN.md"><img src="https://img.shields.io/badge/%E7%AE%80%E4%BD%93%E4%B8%AD%E6%96%87-c8102e?style=flat-square" alt="简体中文"></a>
@@ -56,8 +53,8 @@ This profile is a guide to the public work, not a claim that every repository ha
 
 | Project | Role |
 | --- | --- |
-| [NextWeb4.github.io](https://github.com/NextWeb4/NextWeb4.github.io) | Static personal blog, searchable article archive, self-measure journal, and public project entry point |
-| [website](https://github.com/NextWeb4/website) | Static bilingual homepage plus a loopback-only FastAPI content administration and history-preserving publishing tool |
+| [NextWeb4.github.io](https://github.com/NextWeb4/NextWeb4.github.io) | Generated public runtime for the root personal website, with browser-delivered bilingual content and no private editor or backend |
+| [Private](https://github.com/NextWeb4/Private) | Public static runtime for the separate `/Private/` article archive and self-measure journal |
 | [github-achievement-collab-notes](https://github.com/NextWeb4/github-achievement-collab-notes) | Documentation-only fork for practicing reviewable cross-account collaboration without fabricated activity |
 
 ## Learning and reference archives
@@ -74,7 +71,6 @@ The public account also preserves earlier study material in [C-practice](https:/
 | C#, .NET, WinUI | `alias-cockpit` Windows desktop application |
 | Python, PySide6, SQLite | Translation, record-management, metadata, offline, and LAN desktop projects |
 | HTML, CSS, vanilla JavaScript | Both published websites and the local `code-relay` interface |
-| FastAPI, Pydantic, pytest | Loopback administration service and regression suite in `website` |
 | ExifTool | Metadata read/write engine integrated by `photo-metadata-editor` |
 | Git and GitHub Pages | Static publishing plus guarded content commit, push, history, and rollback workflows |
 
@@ -102,7 +98,7 @@ The dynamic Shields badges refresh when GitHub renders the page. The committed m
 
 ## Status and limitations
 
-The profile repository was active and not archived at the 2026-07-18 audit. Project scope, versions, and availability continue to change, so follow the linked README and release history before installing or reusing anything. Some repositories are learning archives, and the absence of a license in one project must not be inferred from another.
+The profile repository was active and not archived at the 2026-07-22 audit. Project scope, versions, and availability continue to change, so follow the linked README and release history before installing or reusing anything. Some repositories are learning archives, and the absence of a license in one project must not be inferred from another.
 
 ## Contact
 

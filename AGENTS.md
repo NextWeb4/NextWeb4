@@ -37,6 +37,7 @@
 - All three languages have working reciprocal navigation and equivalent factual content.
 - The default `README.md` remains detailed but scan-friendly through grouped tables and short project-specific sections.
 - Every featured repository and contact link resolves to the intended destination.
+- The email link and visible address in every README are exactly `Rays688888@Gmail.com`; do not normalize its casing or substitute an older address.
 
 ## 9. Review criteria
 - Verify the language selector renders through GitHub without browser-translatable text and all three README versions keep the same facts, commands, links, and images.

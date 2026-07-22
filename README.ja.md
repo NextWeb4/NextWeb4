@@ -1,4 +1,3 @@
-
 <p align="center">
   <a href="README.md"><img src="https://img.shields.io/badge/English-0969da?style=flat-square" alt="English"></a>
   <a href="README.zh-CN.md"><img src="https://img.shields.io/badge/%E7%AE%80%E4%BD%93%E4%B8%AD%E6%96%87-c8102e?style=flat-square" alt="简体中文"></a>
@@ -54,8 +53,8 @@
 
 | プロジェクト | 役割 |
 | --- | --- |
-| [NextWeb4.github.io](https://github.com/NextWeb4/NextWeb4.github.io) | 静的な個人ブログ、検索可能な記事アーカイブ、自己測定ジャーナル、公開プロジェクトの入口 |
-| [website](https://github.com/NextWeb4/website) | 静的な二言語ホームページと、ループバック専用 FastAPI コンテンツ管理・履歴保持型公開ツール |
+| [NextWeb4.github.io](https://github.com/NextWeb4/NextWeb4.github.io) | ルート個人サイト用の生成済み公開ランタイム。ブラウザー配信の二言語コンテンツだけを含み、非公開エディターやバックエンドは含まない |
+| [Private](https://github.com/NextWeb4/Private) | 独立した `/Private/` 記事アーカイブと自己測定ジャーナルの公開静的ランタイム |
 | [github-achievement-collab-notes](https://github.com/NextWeb4/github-achievement-collab-notes) | 偽の活動を作らず、レビュー可能なアカウント間連携を練習するドキュメント専用フォーク |
 
 ## 学習・資料アーカイブ
@@ -72,7 +71,6 @@
 | C#、.NET、WinUI | `alias-cockpit` Windows デスクトップアプリケーション |
 | Python、PySide6、SQLite | 翻訳、記録管理、メタデータ、オフライン、LAN の各デスクトッププロジェクト |
 | HTML、CSS、バニラ JavaScript | 2 つの公開 Web サイトとローカル `code-relay` インターフェース |
-| FastAPI、Pydantic、pytest | `website` のループバック管理サービスと回帰テスト |
 | ExifTool | `photo-metadata-editor` に統合したメタデータ読み書きエンジン |
 | Git と GitHub Pages | 静的公開と、保護されたコンテンツのコミット、プッシュ、履歴、ロールバック処理 |
 
@@ -100,7 +98,7 @@
 
 ## 状況と制限
 
-2026-07-18 の監査時点で、Profile リポジトリはアクティブかつ未アーカイブでした。プロジェクトの範囲、バージョン、利用可能性は今後も変わるため、インストールや再利用の前にリンク先の README とリリース履歴を確認してください。一部は学習アーカイブであり、あるプロジェクトにライセンスがないことを別のプロジェクトへ当てはめることはできません。
+2026-07-22 の監査時点で、Profile リポジトリはアクティブかつ未アーカイブでした。プロジェクトの範囲、バージョン、利用可能性は今後も変わるため、インストールや再利用の前にリンク先の README とリリース履歴を確認してください。一部は学習アーカイブであり、あるプロジェクトにライセンスがないことを別のプロジェクトへ当てはめることはできません。
 
 ## 連絡先
 
