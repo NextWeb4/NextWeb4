@@ -1,3 +1,4 @@
+
 <p align="center">
   <a href="README.md"><img src="https://img.shields.io/badge/English-0969da?style=flat-square" alt="English"></a>
   <a href="README.zh-CN.md"><img src="https://img.shields.io/badge/%E7%AE%80%E4%BD%93%E4%B8%AD%E6%96%87-c8102e?style=flat-square" alt="简体中文"></a>
@@ -105,7 +106,7 @@
 
 - Web サイト：[nextweb4.github.io](https://nextweb4.github.io/)
 - GitHub：[github.com/NextWeb4](https://github.com/NextWeb4)
-- メール：[didadida1688@gmail.com](mailto:didadida1688@gmail.com)
+- メール：[Rays688888@Gmail.com](mailto:Rays688888@Gmail.com)
 
 再現手順のあるプロジェクト固有の問題は、該当リポジトリで Issue が有効な場合、その Issue トラッカーへ報告してください。
 
